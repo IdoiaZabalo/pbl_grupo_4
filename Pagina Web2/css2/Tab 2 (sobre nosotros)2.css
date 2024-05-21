@@ -95,14 +95,42 @@
 #Tab2 h1 {
   color: #064044;
   font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
-#Tab p {
+#Tab2 h2 {
   color: #064044;
   font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.compromisos{
+  color: #064044;
+  font-size: 18px;
   line-height: 1.5;
   text-align: justify;
-  margin-right: 40px;
-  margin-left: 40px;
+  margin-bottom:30px;
+}
+
+.compromiso {
+  display: flex; /* Cambiar a flexbox */
+  justify-content: center; /* Centrar los elementos horizontalmente */
+  align-items: center; /* Centrar los elementos verticalmente */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en múltiples líneas */
+  max-width: 100%; /* Ancho máximo del 100% */
+  padding: 20px 300px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.compromiso img {
+	height:150px;
+	width:auto;
+	margin: 0 20px;
+	margin-bottom: 20px;
 }

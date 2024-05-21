@@ -1,12 +1,17 @@
+#Tab7 {
+  text-align: center;
+}
+
 #login-form {
   width: 300px; /* Ajusta este valor según tus necesidades */
   margin: 0 auto;
+  text-align: left;
 }
 }
-#Tab7 h1 {
+.titulo1 {
   font-size: 30px;
   margin-bottom: 50px;
-  text-align: center;
+  text-align: right;
   color: #064044;
 }
 

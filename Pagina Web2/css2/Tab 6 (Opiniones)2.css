@@ -1,3 +1,7 @@
+#Tab6 {
+  text-align: center;
+}
+
 /* Estilos para el contenedor de opiniones */
 .opinion-container {
   overflow: hidden; /* Limpiar el float de las columnas */

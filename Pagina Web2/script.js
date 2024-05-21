@@ -59,3 +59,28 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+document.addEventListener("DOMContentLoaded", function() {
+  var dialog = document.getElementById("dialog");
+  var openDialogButton = document.getElementById("openDialogButton");
+  var confirmButton = document.getElementById("confirmButton");
+  var healthProfessionalCheckbox = document.getElementById("healthProfessionalCheckbox");
+
+  openDialogButton.onclick = function() {
+    dialog.style.display = "block";
+  }
+
+  confirmButton.onclick = function() {
+    if (healthProfessionalCheckbox.checked) {
+      window.location.href = "https://edition.cnn.com/2024/03/27/europe/germany-may-ban-mascots-dachshund-intl-scli-scn/index.html"; // Cambia este enlace al que desees
+    } else {
+      alert("Por favor, confirme que es un profesional de la salud.");
+    }
+    dialog.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target == dialog) {
+      dialog.style.display = "none";
+    }
+  }
+});

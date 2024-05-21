@@ -9,10 +9,11 @@
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 30px 16px;
   transition: 0.3s;
   color: #B6D0D1;
-  font-size: 16px;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .background-image {

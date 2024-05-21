@@ -32,6 +32,7 @@ footer {
   color: white; /* Texto blanco para contrastar */
   padding: 20px;
   text-align: center; /* Centrar el texto */
+  margin-top: 20px;
 }
 
 .redes-sociales {
