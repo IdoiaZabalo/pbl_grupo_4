@@ -1,0 +1,10 @@
+<!ELEMENT patients (patient+)>
+<!ELEMENT patient (hospital, order_id, patient_id, specialist, diagnosis_date, diagnosis, image, note)>
+<!ELEMENT hospital (#PCDATA)>
+<!ELEMENT order_id (#PCDATA)>
+<!ELEMENT patient_id (#PCDATA)>
+<!ELEMENT specialist (#PCDATA)>
+<!ELEMENT diagnosis_date (#PCDATA)>
+<!ELEMENT diagnosis (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT note (#PCDATA)>

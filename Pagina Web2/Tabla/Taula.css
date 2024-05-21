@@ -1,0 +1,97 @@
+h2 {
+  text-align: center;
+  color: #064044;
+  font-size: 40px;
+  margin-top:25px;
+}
+body {
+  background-color: #B6D0D1; /* Color de fondo para todo el documento */
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+th, td {
+  padding: 20px;
+  text-align: center;
+  margin-bottom:40px;
+}
+
+th {
+  background-color: #064044;
+  color: white; 
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.small-image {
+  width: 115px; /* Adjust the width to make the image smaller */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 5%;
+
+}
+.container {
+  display: flex;
+  background-color: #064044; /* Azul verdoso oscuro */
+  color: white; /* Texto blanco para contrastar */
+}
+
+.container img {
+  margin-right: 5px; 
+}
+
+.logo {
+  width: 250px; /* Ajusta el tamaño del logo según sea necesario */
+  height: auto; /* Mantiene la proporción del logo */
+  margin-right: 25px; /* Espacio entre el logo y las pestañas */
+  padding: 5px 5px;
+}
+
+.tabs {
+  display: flex;
+  margin-left: 250px;
+}
+.tablinks {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: #B6D0D1;
+  font-size: 16px;
+}
+.tablinks:hover {
+  background-color: #26696D; /* Cambia de color al pasar el cursor */
+}
+
+.tablinks.active {
+  font-weight: bold; /* Texto en negrita */
+  text-decoration: underline; /* Subrayado */
+  color: #499EAF; /* Color de texto diferente */
+}
+
+footer {
+  background-color: #064044; /* Color de fondo */
+  color: white; /* Texto blanco para contrastar */
+  padding: 20px;
+  text-align: center; /* Centrar el texto */
+}
+
+.redes-sociales {
+  margin-bottom: 10px; /* Espacio entre los iconos y el texto */
+}
+
+.redes-sociales a {
+  margin-right: 10px; /* Espacio entre los iconos */
+}
+
+.redes-sociales img {
+  width: 30px; /* Tamaño de los iconos */
+  height: auto;
+}
