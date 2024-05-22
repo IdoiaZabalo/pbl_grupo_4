@@ -1,0 +1,151 @@
+#Tab3 {
+  text-align: center;
+}
+.background-image {
+  position: relative;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  height:auto;
+  z-index: -1;
+}
+
+.background-image img {
+  width: 100%;
+  height:auto;
+  position: relative;
+  z-index: -1; /* Coloca la imagen detrás del contenido */
+  opacity: 0.3;
+  margin-top:70px;
+}
+#Tab3 h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #064044;
+  margin-top: 15px;
+}
+
+#Tab3 p{
+  color: #064044;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-right: 400px;
+  margin-left: 400px;
+  margin-top: 5px;
+}
+
+#Tab3 h3{
+  color: #064044;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#Tab3 h2{
+  color: #064044;
+  font-size: 25px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.link{
+	font-size: 20px;
+}
+
+.GlaucoTech img {
+  border-radius: 10%;
+  margin-left: 115px;
+  margin-bottom: 10px;
+  width: 40%; /* Reducir el tamaño a la mitad */
+}
+.GlaucoTech {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  margin-top: 15px;
+ }
+
+#openDialogButton {
+  background-color: #064044;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 140px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 15px;
+}
+
+#openDialogButton:hover {
+  background-color: #26696D;
+}
+
+#Tab3 p.pregunta {
+  /* Agrega tus estilos personalizados aquí */
+  font-size: 25px; /* Ejemplo de tamaño de fuente */
+  color: #064044; /* Ejemplo de color de texto */
+  text-align:center;
+}
+.dialog {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+  
+}
+
+.dialog-content {
+  background-color: #B6D0D1;
+  margin: 5% auto;
+  padding: 20px;
+  border: 2px solid #064044;
+  width: 80%;
+  font-size:20px;
+}
+a[type="Instrucciones"] {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #064044;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-family: "Times New Roman", serif;
+}
+a[type="Instruccioens"]:hover {
+  text-decoration: underline;
+}
+
+#confirmButton {
+  background-color: #064044;
+  color: white;
+  border: none;
+  margin-bottom:10px;
+  margin-top:30px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px; /* Tamaño de letra deseado */
+}
+
+#confirmButton:hover {
+  background-color: #26696D;
+}
