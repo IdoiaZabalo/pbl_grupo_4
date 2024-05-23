@@ -25,9 +25,6 @@
   margin-left: 40px;
 }
 
-
-
-/* Estilos para cada miembro del equipo */
 .team-member {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 20px;
@@ -35,7 +32,6 @@
   transition: transform 0.3s ease;
 }
 
-/* Estilos para la imagen de cada miembro del equipo */
 .member-img {
   text-align: center;
   position: relative;
@@ -58,7 +54,6 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-/* Estilos para la información de cada miembro del equipo */
 .member-info {
   display: none;
   opacity: 0;
@@ -74,21 +69,21 @@
 .team-grid1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columnas en la primera fila */
-  grid-gap: 30px; /* Espacio entre los recuadros */
+  grid-gap: 30px; 
   margin-bottom: 30px;
 }
 
 .team-grid2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columnas en la segunda fila */
-  grid-gap: 30px; /* Espacio entre los recuadros */
+  grid-gap: 30px; 
   margin-bottom: 30px;
 }
 
 .enlace-imagen img {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columnas en la segunda fila */
-  grid-gap: 30px; /* Espacio entre los recuadros */
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 30px; 
   margin-bottom: 30px;
    border-radius: 10px;
 }
@@ -116,11 +111,11 @@
 }
 
 .compromiso {
-  display: flex; /* Cambiar a flexbox */
-  justify-content: center; /* Centrar los elementos horizontalmente */
-  align-items: center; /* Centrar los elementos verticalmente */
-  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en múltiples líneas */
-  max-width: 100%; /* Ancho máximo del 100% */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  max-width: 100%;
   padding: 20px 300px;
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 20px;

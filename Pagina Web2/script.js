@@ -46,15 +46,11 @@ document.addEventListener('DOMContentLoaded', function () {
   formulario.addEventListener('submit', function (event) {
     event.preventDefault(); // Evitar el envío del formulario por defecto
 
-    // Aquí podrías agregar el código para enviar el formulario por AJAX o cualquier otro método
-
-    // Mostrar el mensaje de confirmación
     mensajeConfirmacion.style.display = 'block';
 
-    // Ocultar el mensaje de confirmación después de 6 segundos
     setTimeout(function () {
       mensajeConfirmacion.style.display = 'none';
-    }, 4000);
+    }, 4000); //Para eliminar el mensaje en 4 segundos
   });
 });
 
@@ -71,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   confirmButton.onclick = function() {
     if (healthProfessionalCheckbox.checked) {
-      window.location.href = "https://edition.cnn.com/2024/03/27/europe/germany-may-ban-mascots-dachshund-intl-scli-scn/index.html"; // Cambia este enlace al que desees
+      window.location.href = "PRUEBA.pdf"; // Cambia este enlace al que desees
     } else {
       alert("Por favor, confirme que es un profesional de la salud.");
     }

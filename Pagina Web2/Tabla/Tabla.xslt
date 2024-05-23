@@ -6,21 +6,33 @@
     <head>
       <title>Información de pacientes</title>
       <link rel="stylesheet" type="text/css" href="Taula.css"/>
+	  <link rel="stylesheet" type="text/css" href="../css2/general2.css"/>
+	  <link rel="stylesheet" type="text/css" href="../css2/tabs2.css"/>
+	  <link rel="stylesheet" type="text/css" href="../css2/Tab 1 (inicio)2.css"/>
+	  <link rel="stylesheet" type="text/css" href="../css2/Tab 2 (sobre nosotros)2.css"/>
+	  <link rel="stylesheet" type="text/css" href="../css2/Tab 3 (GlaucoTech)2.css"/>
+	  <link rel="stylesheet" type="text/css" href="../css2/Tab 4 (Preguntas Frecuentes)2.css"/>
+	  <link rel="stylesheet" type="text/css" href="../css2/Tab 5 (contáctenos)2.css"/>
+	  <link rel="stylesheet" type="text/css" href="../css2/Tab 6 (Opiniones)2.css"/>
+	  <link rel="stylesheet" type="text/css" href="../css2/Tab 7 (inicio de sesión)2.css"/> 
     </head>
+	
     <body>
       <!-- Menú de la página web -->
-      <div class="container">
-        <img src="imagenes/logo-removebg-preview (2).png" class="logo"/>
-        <div class="tabs">
-          <button class="tablinks" onclick="openTab(event, 'Tab1')">Inicio</button>
-          <button class="tablinks" onclick="openTab(event, 'Tab2')">Sobre Nosotros</button>
-          <button class="tablinks" onclick="openTab(event, 'Tab3')">GlaucoTech</button>
-          <button class="tablinks" onclick="openTab(event, 'Tab4')">Preguntas Frecuentes</button>
-          <button class="tablinks" onclick="openTab(event, 'Tab5')">Contáctenos</button>
-          <button class="tablinks" onclick="openTab(event, 'Tab6')">Opiniones de Clientes</button>
-          <button class="tablinks" onclick="openTab(event, 'Tab7')">Iniciar Sesion</button>
-        </div>
-      </div>
+		<div>
+		  <div class="container">
+			<img src="imagenes/logo-removebg-preview (2).png" class="logo"/>
+			<div class="tabs">
+			  <a class="tablinks active" href="../Index.html" >Inicio</a>
+			  <a class="tablinks" href="../SobreNosotros.html">Sobre Nosotros</a>
+			  <a class="tablinks" href="../GlaucoTech.html">GlaucoTech</a>
+			  <a class="tablinks" href="../PreguntasFrecuentes.html">Preguntas Frecuentes</a>
+			  <a class="tablinks" href="../Contactenos.html">Contáctenos</a>
+			  <a class="tablinks" href="../Opiniones.html">Opiniones de Clientes</a>
+			  <a class="tablinks" href="../InicioSesion.html">Iniciar Sesion</a>
+			</div>
+		  </div>
+		</div>
 
       <h2>Información de pacientes</h2>
       <table border="1">
