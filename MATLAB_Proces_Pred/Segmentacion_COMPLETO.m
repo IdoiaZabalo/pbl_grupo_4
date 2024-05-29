@@ -29,7 +29,7 @@ parfor i = 1:height(T_ROI)
 
     nombre_imagen = T_ROI.image{i};
 
-    glaucoma_var{i} = T_ROI.glaucoma(i);
+    glaucoma_var(i) = T_ROI.glaucoma(i);
 
     ROI_origen= imread(T_ROI.image{i});
 
