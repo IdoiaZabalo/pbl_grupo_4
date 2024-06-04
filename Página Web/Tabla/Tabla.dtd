@@ -1,10 +1,17 @@
 <!ELEMENT patients (patient+)>
-<!ELEMENT patient (hospital, order_id, patient_id, specialist, diagnosis_date, diagnosis, image, note)>
+<!ELEMENT patient (genero, hospital, order_id, age, diagnosis_date, diagnosis, image, resultados, tratamiento?, dosis?, note?)>
+<!ATTLIST patient id CDATA #REQUIRED>
+<!ELEMENT genero (#PCDATA)>
 <!ELEMENT hospital (#PCDATA)>
 <!ELEMENT order_id (#PCDATA)>
-<!ELEMENT patient_id (#PCDATA)>
-<!ELEMENT specialist (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
 <!ELEMENT diagnosis_date (#PCDATA)>
 <!ELEMENT diagnosis (#PCDATA)>
 <!ELEMENT image (#PCDATA)>
+<!ELEMENT resultados (copa, disco, ratio)>
+<!ELEMENT copa (#PCDATA)>
+<!ELEMENT disco (#PCDATA)>
+<!ELEMENT ratio (#PCDATA)>
+<!ELEMENT tratamiento (#PCDATA)>
+<!ELEMENT dosis (#PCDATA)>
 <!ELEMENT note (#PCDATA)>
