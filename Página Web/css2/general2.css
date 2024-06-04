@@ -33,6 +33,7 @@ footer {
   padding: 20px;
   text-align: center; /* Centrar el texto */
   margin-top: 20px;
+  z-index:2;
 }
 
 .redes-sociales {
