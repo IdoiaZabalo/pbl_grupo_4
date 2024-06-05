@@ -50,10 +50,10 @@ body.scrolled .background-container {
 
 .titulo {
   
-  font-size: 270px;
+  font-size: 250px;
   margin-bottom: 5px;
   margin-top: 40px;
-  margin-left: 300px;
+  margin-left: 350px;
   grid-template-columns: 1fr;
   grid-gap: 25px;
   padding:0 40px;
