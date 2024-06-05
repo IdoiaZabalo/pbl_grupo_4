@@ -13,10 +13,11 @@
   margin-bottom: 50px;
 }
 #Tab5 h1 {
-  font-size: 30px;
-  margin-bottom: 50px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color:#064044;
   text-align: center;
-  color: #064044;
+  margin-bottom:50px;
 }
 .background-image img {
   width: 100%;
@@ -74,9 +75,10 @@ textarea {
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   margin-left: 250px;
   margin-right: 80px;
+  margin-top: 40px;
   
 }
 

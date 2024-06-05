@@ -95,4 +95,9 @@ body.scrolled .background-container {
   position: fixed;
   z-index:-1;
 }
-
+.titulo2, .subtitulo2{
+  display: block; /* Asegura que cada uno ocupe una línea completa */
+  margin: 0 auto; /* Centra los elementos horizontalmente */
+  text-align: center;
+  padding: 10px 150px;
+}
