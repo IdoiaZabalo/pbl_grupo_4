@@ -22,11 +22,11 @@
 		  <div class="container">
 			<img src="imagenes/logo-removebg-preview (2).png" class="logo"/>
 			<div class="tabs">
-			  <a class="tablinks" href="../Index.html" >Inicio</a>
+			  <a class="tablinks" href="../Index(inicio).html" >Inicio</a>
 			  <a class="tablinks" href="../SobreNosotros.html">Sobre Nosotros</a>
 			  <a class="tablinks" href="../GlaucoTech.html">GlaucoTech</a>
 			  <a class="tablinks" href="../PreguntasFrecuentes.html">Preguntas Frecuentes</a>
-			  <a class="tablinks" href="../Contactenos.html">Contáctenos</a>
+			  <a class="tablinks" href="../Contactenosb.html">Contáctenos</a>
 			  <a class="tablinks" href="../Opiniones.html">Opiniones de Clientes</a>
 			  <a class="tablinks active" href="../InicioSesion.html">Iniciar Sesion</a>
 			</div>
