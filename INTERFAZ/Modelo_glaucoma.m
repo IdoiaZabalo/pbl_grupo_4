@@ -17,7 +17,7 @@ cv_out = cvpartition(T.glaucoma, 'HoldOut', p, 'Stratify', true);
 T_train = T(cv_out.training, :);
 
 % Test final con el mejor modelo
-mdl_final_tree = fitctree(T_train, 'glaucoma');
+mdl_final_knn = fitcknn(T_train, 'glaucoma');
 
-Glaucoma = predict(mdl_final_tree, Tabla);
+Glaucoma = predict(mdl_final_knn, Tabla);
 end 
