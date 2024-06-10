@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="222211789" file="C:\pbl_grupo_4\interfaz\GlaucoTech.prj" location="C:\pbl_grupo_4\interfaz" name="GlaucoTech" preferred-package-location="C:\pbl_grupo_4\interfaz\GlaucoTech\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="3083563734" file="C:\pbl_grupo_4\interfaz\GlaucoTech.prj" location="C:\pbl_grupo_4\interfaz" name="GlaucoTech" preferred-package-location="C:\pbl_grupo_4\interfaz\GlaucoTech\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>GlaucoTech</param.appname>
     <param.icon />
     <param.icons />
@@ -87,7 +87,6 @@
       <file>${PROJECT_ROOT}\Calidad.m</file>
       <file>${PROJECT_ROOT}\Carac_calidad.m</file>
       <file>${PROJECT_ROOT}\Carac_Glaucoma.m</file>
-      <file>${PROJECT_ROOT}\Carac_relevantes.m</file>
       <file>${PROJECT_ROOT}\Caracteristicas_BALANCED_MODELO_LIMPIO.csv</file>
       <file>${PROJECT_ROOT}\crearROI.m</file>
       <file>${PROJECT_ROOT}\datosdelpaciente.mlapp</file>
