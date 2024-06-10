@@ -1,0 +1,168 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="222211789" file="C:\pbl_grupo_4\interfaz\GlaucoTech.prj" location="C:\pbl_grupo_4\interfaz" name="GlaucoTech" preferred-package-location="C:\pbl_grupo_4\interfaz\GlaucoTech\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>GlaucoTech</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\User\OneDrive - Mondragon Unibertsitatea\Imágenes\Imagen1.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\GlaucoTech\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\GlaucoTech\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\GlaucoTech\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\GlaucoTech\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\GlaucoTech</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Interfaz_pbl6.mlapp</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\2.Instrucciones de uso_GlaucoTech.pdf</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Calidad.m</file>
+      <file>${PROJECT_ROOT}\Carac_calidad.m</file>
+      <file>${PROJECT_ROOT}\Carac_Glaucoma.m</file>
+      <file>${PROJECT_ROOT}\Carac_relevantes.m</file>
+      <file>${PROJECT_ROOT}\Caracteristicas_BALANCED_MODELO_LIMPIO.csv</file>
+      <file>${PROJECT_ROOT}\crearROI.m</file>
+      <file>${PROJECT_ROOT}\datosdelpaciente.mlapp</file>
+      <file>${PROJECT_ROOT}\Fondos verdes1.jpg</file>
+      <file>${PROJECT_ROOT}\ICONO.png</file>
+      <file>${PROJECT_ROOT}\instrucciones icono.png</file>
+      <file>${PROJECT_ROOT}\Modelo_glaucoma.m</file>
+      <file>${PROJECT_ROOT}\Parametros.mlapp</file>
+      <file>${PROJECT_ROOT}\resultadosdelpaciente.mlapp</file>
+      <file>${PROJECT_ROOT}\segmentarCopa.m</file>
+      <file>${PROJECT_ROOT}\segmentarDisco.m</file>
+      <file>${PROJECT_ROOT}\T_revisadaCaracteristicas.csv</file>
+      <file>${PROJECT_ROOT}\WhatsApp_Image_2024-05-16_at_09.37.41-removebg-preview.png</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\GlaucoTech\for_testing" name="readme.txt" optional="true">C:\pbl_grupo_4\interfaz\GlaucoTech\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\GlaucoTech\for_testing" name="GlaucoTech.exe" optional="false">C:\pbl_grupo_4\interfaz\GlaucoTech\for_testing\GlaucoTech.exe</file>
+      <file location="${PROJECT_ROOT}\GlaucoTech\for_testing" name="splash.png" optional="false">C:\pbl_grupo_4\interfaz\GlaucoTech\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

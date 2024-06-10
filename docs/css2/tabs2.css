@@ -1,0 +1,39 @@
+/* Estilos de las pestañas */
+#Tab1 {
+  background-color: #B6D0D1; /* Color del tab */
+  margin-right: 0px; 
+}
+
+.tablinks {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 30px 16px;
+  transition: 0.3s;
+  color: #B6D0D1;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
+  opacity: 0.5; /* Ajusta la opacidad de la imagen según sea necesario */
+}
+
+.tablinks:hover {
+  background-color: #26696D; /* Cambia de color al pasar el cursor */
+}
+
+.tablinks.active {
+  font-weight: bold; /* Texto en negrita */
+  text-decoration: underline; /* Subrayado */
+  color: #499EAF; /* Color de texto diferente */
+}

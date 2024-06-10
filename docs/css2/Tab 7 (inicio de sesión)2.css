@@ -1,0 +1,97 @@
+#Tab7 {
+  text-align: center;
+}
+
+#Tab7 h1 {
+  font-size: 40px;
+  margin-bottom: 70px;
+  color: #064044;
+  text-align: center;
+}
+
+#login-form {
+  width: 300px; 
+  margin: 70px auto 0;
+  text-align: left;
+}
+
+.titulo1 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  text-align: right;
+  color: #064044;
+}
+
+.form-group2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.form-group2.inline {
+  flex-direction: row;
+  align-items: center;
+}
+
+.background-image {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  z-index: -1;
+}
+
+.background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  position: relative;
+  z-index: -1; /* Coloca la imagen detrás del contenido */
+  opacity: 0.7;
+  margin-top: 70px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 10px); 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: #064044;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 20px 80px 40px;
+}
+
+button[type="submit"]:hover {
+  background-color: #26696D;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.6); /* Fondo blanco semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  max-width: 400px; /* Ajusta el ancho máximo del contenedor */
+  margin-bottom: 70px;
+}
