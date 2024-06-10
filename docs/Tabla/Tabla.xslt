@@ -22,7 +22,7 @@
 		  <div class="container">
 			<img src="imagenes/logo-removebg-preview (2).png" class="logo"/>
 			<div class="tabs">
-			  <a class="tablinks" href="../Index(inicio).html" >Inicio</a>
+			  <a class="tablinks" href="../index.html" >Inicio</a>
 			  <a class="tablinks" href="../SobreNosotros.html">Sobre Nosotros</a>
 			  <a class="tablinks" href="../GlaucoTech.html">GlaucoTech</a>
 			  <a class="tablinks" href="../PreguntasFrecuentes.html">Preguntas Frecuentes</a>
