@@ -16,39 +16,43 @@
   <div class="container">
     <img src="imagenes/logo-removebg-preview (2).png" class="logo">
     <div class="tabs">
-      <a class="tablinks" href="Index(inicio).html" >Inicio</a>
+      <a class="tablinks" href="index.html" >Inicio</a>
       <a class="tablinks" href="SobreNosotros.html">Sobre Nosotros</a>
-      <a class="tablinks active" href="GlaucoTech.html">GlaucoTech</a>
+      <a class="tablinks" href="GlaucoTech.html">GlaucoTech</a>
       <a class="tablinks" href="PreguntasFrecuentes.html">Preguntas Frecuentes</a>
-      <a class="tablinks" href="Contactenos.html">Contáctenos</a>
+      <a class="tablinks active" href="Contactenos.html">Contáctenos</a>
       <a class="tablinks" href="Opiniones.html">Opiniones de Clientes</a>
       <a class="tablinks" href="InicioSesion.html">Iniciar Sesion</a>
     </div>
   </div>
 </div>
 
-<div id="Tab3" class="tabcontent">
-  <h1>Información de GlaucoTech</h1>
+<div id="Tab5" class="tabcontent">
+  <h1>Contacto</h1>
   <div class="background-image">
-    <img src="imagenes/Fondo2.png" alt="Fondo">
+    <img src="imagenes/FondoLogo.png" alt="Fondo">
   </div>
-  <div class="pdf-section">
-    <h2>Descargar Instrucciones</h2>
-    <a class="link" href="pdf/2.Instrucciones de uso_GlaucoTech.pdf" target="_blank">Descargar PDF</a>
-  </div>
-  <div class="pdf-section">
-    <h2>Descargar Etiqueta de Producto</h2>
-    <a class="link" href="pdf/2.Etiqueta_GlaucoTech.pdf" target="_blank">Descargar PDF</a>
-  </div>
-  <div class="pdf-section">
-    <h2>Descargar Declaración UE</h2>
-    <a class="link" href="pdf/2.Declaracion UE de Conformidad_GlaucoTech.pdf" target="_blank">Descargar PDF</a>
-  </div>
-  <div class="pdf-section">
-    <h2></h2>
-	<h2></h2>
-	<h2></h2>
-  </div>
+  <form id="tu-formulario">
+    <div class="form-group">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="subject">Asunto:</label>
+      <input type="text" id="subject" name="subject" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+    </div>
+    <button class="contact-btn">Enviar</button>
+  </form>
+  <div id="mensaje-confirmacion" style="display: none;">Gracias por tu aportación. ¡Te contactaremos pronto!</div>
+
 </div>
 
 <footer>
@@ -61,4 +65,4 @@
     <p>Derechos de autor © 2024 MedCore. Todos los derechos reservados.</p>
  </footer>
  
- <script src="script.js"></script>
+  <script src="script.js"></script>
