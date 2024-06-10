@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   confirmButton.onclick = function() {
     if (healthProfessionalCheckbox.checked) {
-      window.location.href = "PRUEBA.pdf"; // Cambia este enlace al que desees
+      window.location.href = "../INTERFAZ/Interfaz_pbl6.mlapp"; // Cambia este enlace al que desees
     } else {
       alert("Por favor, confirme que es un profesional de la salud.");
     }
