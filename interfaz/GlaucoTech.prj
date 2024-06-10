@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration file="C:\pbl_grupo_4\interfaz\GlaucoTech.prj" location="C:\pbl_grupo_4\interfaz" name="GlaucoTech" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="222211789" file="C:\pbl_grupo_4\interfaz\GlaucoTech.prj" location="C:\pbl_grupo_4\interfaz" name="GlaucoTech" preferred-package-location="C:\pbl_grupo_4\interfaz\GlaucoTech\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>GlaucoTech</param.appname>
     <param.icon />
     <param.icons />
@@ -79,7 +79,9 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\Interfaz_pbl6.mlapp</file>
     </fileset.main>
-    <fileset.resources />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\2.Instrucciones de uso_GlaucoTech.pdf</file>
+    </fileset.resources>
     <fileset.package />
     <fileset.depfun>
       <file>${PROJECT_ROOT}\Calidad.m</file>
